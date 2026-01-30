@@ -58,8 +58,7 @@ I overcame these by testing frequently and adjusting styles based on visual comp
 
 ## 👤 Author
 
-* GitHub: [@your-username](https://github.com/your-username)
-* devChallenges: [Your devChallenges profile link]
+* GitHub: (https://github.com/thepromise1))
 
 
 
