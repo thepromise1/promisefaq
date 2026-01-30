@@ -1,0 +1,110 @@
+/* 📱 Mobile Styles (Screens up to 767px) */
+@media screen and (max-width: 767px) {
+  .grid-container {
+    /* ✍️ Reduce to 4 columns for mobile readability */
+    grid-template-columns: repeat(4, 1fr); 
+    
+    /* 🪐 Tighter Gap for smaller screens (e.g., 16px) */
+    gap: 16px; 
+    
+    /* 🔭 Smaller Margin (Padding) for mobile (e.g., 20px) */
+    padding: 0 20px; 
+  }
+
+  /* Force items to span full mobile width if they were narrow on desktop */
+  .grid-item {
+    grid-column: span 4;
+  }
+}
+
+/* 💻 Desktop Styles (Previous settings) */
+@media screen and (min-width: 768px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 32px;
+    padding: 0 72px;
+  }
+}
+
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+body {
+        height: 100vh;
+      }
+
+.author-info {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 16px;
+        color: #D2D5DA;
+      }
+
+.author-info a {
+        text-decoration: none;
+      }
+#box1{
+    margin-top: 100px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+#box2{
+    height: 600px;
+    width: auto;
+    background-color: #F8FAFC;
+    margin-top: 80px;
+    text-align: center;
+}
+#q1{
+    padding-top: 50px;
+    padding-bottom: 25px;
+    padding-right: 120px; 
+}
+#q2{
+    padding-top: 40px;
+    padding-right: 120px; 
+}
+.line{
+    width: 30%; /* Set a width less than 100% */
+  margin: 0 auto; /* Centers the element horizontally */
+}
+
+#box2 ol {
+    display: inline-block;     /* Keeps the list centered within the centered container */
+    text-align: left;          /* Keeps text left-aligned for readability */
+    padding-left: 40px;        /* Brings the numbers back into view */
+    list-style-type: decimal;  /* Ensures numbers are active */
+}
+
+#box2 li {
+    display: list-item;        /* Standard list behavior */
+    margin-bottom: 8px;       /* Adds space between steps */
+}
+.track {
+    padding-right: 160px; 
+    padding-bottom: 25px;
+}
+.visit{
+    padding-top: 20px;
+    padding-right: 90px;
+    padding-bottom: 40px;
+}
+.dot {
+    display: inline-block;     /* Keeps the list centered within the centered container */
+    text-align: left;          /* Keeps text left-aligned for readability */
+    padding-left: 80px;        /* Brings the numbers back into view */
+    list-style-type: disc;  /* Ensures numbers are active */
+}
+.offer{
+    padding-right: 10px; 
+    padding-top: 25px; 
+    padding-bottom: 25px;
+}
+a{
+    color: #4E80EE;
+    text-decoration: none;
+}
